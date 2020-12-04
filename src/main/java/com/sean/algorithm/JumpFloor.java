@@ -19,5 +19,9 @@ public class JumpFloor {
 
     public static void main(String[] args) {
         System.out.println(JumpFloor.JumpFloor(4));
+        int i = 1;
+        int j = 2;
+        int[] a = new int[] {i, j};
+
     }
 }
