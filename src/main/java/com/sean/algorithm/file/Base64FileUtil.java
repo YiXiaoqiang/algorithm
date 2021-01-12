@@ -12,15 +12,15 @@ import java.nio.charset.StandardCharsets;
 public class Base64FileUtil {
 
 
-    private static String targetFilePath = "";
+    private static String targetFilePath = "E:\\wenming\\exporter-after\\exporter-after.zip";
 
 
     public static void main(String[] args) throws Exception {
-        String fileStr = getFileStr("");
+//        String fileStr = getFileStr("E:\\wenming\\exporter.zip");
+//
+//        FileUtils.writeStringToFile(new File("E:\\\\wenming\\\\exporter-after\\\\exporter.txt"), fileStr, StandardCharsets.UTF_8);
 
-        FileUtils.writeStringToFile(new File(""), fileStr, StandardCharsets.UTF_8);
-
-        generateFile(FileUtils.readFileToString(new File(""), StandardCharsets.UTF_8), targetFilePath);
+        generateFile(FileUtils.readFileToString(new File("E:\\wenming\\exporter-after\\exporter.txt"), StandardCharsets.UTF_8), targetFilePath);
     }
 
 
